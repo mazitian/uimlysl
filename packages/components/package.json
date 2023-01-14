@@ -1,0 +1,28 @@
+{
+  "name": "mlysl-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "module": "es/index.js",
+  "scripts": {
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "mlysl-ui",
+    "vue3组件库"
+  ],
+  "author": "mlysl",
+  "license": "MIT",
+  "dependencies": {
+    "@mlysl-ui/utils": "workspace:^1.0.0"
+  },
+  "typings": "lib/index.d.ts",
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
