@@ -1,5 +1,5 @@
-import { default as Button } from './button';
-export { Button };
+import { default as MlButton } from './button';
+export { MlButton };
 declare const _default: import("@mlysl-ui/utils/withinstall").SFCWithInstall<import("vue").DefineComponent<{
     type: {
         type: StringConstructor;

@@ -1,6 +1,6 @@
-import Button from "./button/index.js";
-const index = [Button];
+import MlButton from "./button/index.js";
+const index = [MlButton];
 export {
-  Button,
+  MlButton,
   index as default
 };

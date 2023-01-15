@@ -1,6 +1,6 @@
 import button from "./button.vue.js";
 import withInstall from "../utils/withinstall/index.js";
-const Button = withInstall(button);
+const MlButton = withInstall(button);
 export {
-  Button as default
+  MlButton as default
 };

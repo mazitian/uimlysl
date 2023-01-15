@@ -6,7 +6,7 @@
 
 <script lang="ts">
 import './style/type.less'
-import { defineComponent, computed } from 'vue'
+import { defineComponent, computed } from 'vue';
 import { buttonProps } from './types'
 export default defineComponent({
   name: 'ml-button',

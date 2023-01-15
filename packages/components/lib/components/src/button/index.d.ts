@@ -1,4 +1,4 @@
-declare const Button: import("@mlysl-ui/utils/withinstall").SFCWithInstall<import("vue").DefineComponent<{
+declare const MlButton: import("@mlysl-ui/utils/withinstall").SFCWithInstall<import("vue").DefineComponent<{
     type: {
         type: StringConstructor;
         validator(value: string): boolean;
@@ -13,4 +13,4 @@ declare const Button: import("@mlysl-ui/utils/withinstall").SFCWithInstall<impor
         validator(value: string): boolean;
     };
 }>>, {}>>;
-export default Button;
+export default MlButton;
