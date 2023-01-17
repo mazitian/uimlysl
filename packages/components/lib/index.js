@@ -1,6 +1,12 @@
 "use strict";
 Object.defineProperties(exports, { __esModule: { value: true }, [Symbol.toStringTag]: { value: "Module" } });
 const index$1 = require("./button/index.js");
-const index = [index$1];
+const index$2 = require("./menu/index.js");
+const index$3 = require("./menu-item/index.js");
+const index$4 = require("./sub-menu/index.js");
+const index = [index$1, index$2, index$3, index$4];
 exports.MlButton = index$1;
+exports.MlMenu = index$2;
+exports.MlMenuItem = index$3;
+exports.MlSubMenu = index$4;
 exports.default = index;

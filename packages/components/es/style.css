@@ -1,3 +1,57 @@
+[data-v-87dc9a6d]:root {
+  --color-primary: #409eff;
+  --font-size-primary: 14px;
+}
+.ml-menu-item[data-v-87dc9a6d] {
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+}
+.ml-menu-item[data-v-87dc9a6d]:hover {
+  background-color: #79bbff;
+}
+[data-v-af099a41]:root {
+  --color-primary: #409eff;
+  --font-size-primary: 14px;
+}
+.ml-sub-menu[data-v-af099a41] {
+  position: relative;
+}
+.ml-sub-menu .title[data-v-af099a41] {
+  position: relative;
+  height: 56px;
+  line-height: 56px;
+  text-align: center;
+}
+.ml-sub-menu .title[data-v-af099a41]:hover {
+  background-color: #79bbff;
+}
+.ml-sub-menu .title .icon[data-v-af099a41] {
+  position: absolute;
+  right: 15px;
+}
+.ml-sub-menu .sub-item[data-v-af099a41] {
+  height: 100%;
+  top: 0;
+  width: 100%;
+}
+[data-v-841e5e46]:root {
+  --color-primary: #409eff;
+  --font-size-primary: 14px;
+}
+.ml-menu[data-v-841e5e46] {
+  box-sizing: border-box;
+  border-right: 1px #dcdfe6 solid;
+  width: 210px;
+  font-size: var(--font-size-primary);
+}
+.ml-menu[data-v-841e5e46]:hover {
+  cursor: pointer;
+}
+:root {
+  --color-primary: #409eff;
+  --font-size-primary: 14px;
+}
 .ml-button {
   display: inline-block;
   line-height: 1;
@@ -17,7 +71,7 @@
   border-radius: 4px;
 }
 .ml-button:hover {
-  color: #409eff;
+  color: var(--color-primary);
   border-color: #c6e2ff;
   background-color: #ecf5ff;
 }

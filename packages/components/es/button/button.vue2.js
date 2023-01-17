@@ -2,7 +2,7 @@ import "./style/type.less.js";
 import { defineComponent, computed } from "vue";
 import { buttonProps } from "./types.js";
 const _sfc_main = defineComponent({
-  name: "ml-button",
+  name: "MlButton",
   props: buttonProps,
   setup(props) {
     const styleClass = computed(() => {

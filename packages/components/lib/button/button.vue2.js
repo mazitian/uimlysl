@@ -3,7 +3,7 @@ require("./style/type.less.js");
 const vue = require("vue");
 const types = require("./types.js");
 const _sfc_main = vue.defineComponent({
-  name: "ml-button",
+  name: "MlButton",
   props: types.buttonProps,
   setup(props) {
     const styleClass = vue.computed(() => {

@@ -9,7 +9,7 @@ import './style/type.less'
 import { defineComponent, computed } from 'vue';
 import { buttonProps } from './types'
 export default defineComponent({
-  name: 'ml-button',
+  name: 'MlButton',
   props: buttonProps,
   setup(props) {
     const styleClass = computed(() => {
